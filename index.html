@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Special Tags Demo</title>
+
+    <!-- Base Tag -->
+    <base href="https://www.example.com/" target="_blank">
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial;
+        }
+
+        .container {
+            width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #ccc;
+        }
+
+        .box {
+            border: 1px solid #aaa;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #fafafa;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        code {
+            background-color: #eee;
+            padding: 3px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 align="center">HTML Special Tags Example</h1>
+
+    <!-- Legend Tag -->
+    <div class="box">
+        <fieldset>
+            <legend>Student Details</legend>
+
+            Name:
+            <input type="text"><br><br>
+
+            Roll Number:
+            <input type="text">
+        </fieldset>
+    </div>
+
+    <!-- Base Tag Example -->
+    <div class="box">
+        <h3>Base Tag</h3>
+        <p>
+            Click the link below. It opens using the base URL:
+            <br><br>
+            <a href="about">About Page</a>
+        </p>
+    </div>
+
+    <!-- Param Tag -->
+    <div class="box">
+        <h3>Param Tag</h3>
+        <p>Audio file with parameter:</p>
+
+        <object data="sample.mp3">
+            <param name="autoplay" value="false">
+        </object>
+    </div>
+
+    <!-- Code Tag -->
+    <div class="box">
+        <h3>Code Tag</h3>
+        <p>
+            Example of HTML code:
+            <br><br>
+            <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+        </p>
+    </div>
+
+</div>
+
+</body>
+</html>
